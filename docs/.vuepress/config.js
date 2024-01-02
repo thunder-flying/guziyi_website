@@ -27,7 +27,7 @@ module.exports = {
       {
         rel: 'shortcut icon',
         type: 'image/x-icon',
-        href: `/logo.ico`,
+        href: `/logo.jpeg`,
       },
     ],
     // ['style', {},``]
@@ -52,13 +52,13 @@ module.exports = {
     // ],
   ],
   themeConfig:{
-    logo:"/logo.png",
+    logo:"/logo.jpeg",
     contributors:false,
     contributorsText: '贡献者',
     lastUpdatedText:'上次更新',
     notFound:['这就戳碰到我知识的盲点了'],
     editLinkText:"编辑页面",
-    docsRepo:"https://github.com/shengxinjing/it-roadmap",
+    docsRepo:"https://github.com/thunder-gzy/guziyi.git",
     docsBranch:"main",
     docsDir:"docs",
     navbar:[
@@ -93,18 +93,18 @@ module.exports = {
           {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
         ]
       },
-      '/support.md',
+      // '/support.md',
       {
         text:'聊天室',
         link:'https://discord.gg/V3ZHdnZErY'
       },
       // {
       //   text:'提问',
-      //   link:"https://github.com/shengxinjing/it-roadmap/discussions"
+      //   link:"https://github.com/thunder-gzy/guziyi.git/discussions"
       // },
       {
         text:'Github',
-        link:"https://github.com/shengxinjing/it-roadmap"
+        link:"https://github.com/thunder-gzy/guziyi.git"
       },
       {
         text:'Twitter',
@@ -151,7 +151,7 @@ module.exports = {
           '/fe/hot.md'
         ]
       },
-      '/support.md',
+      // '/support.md',
       {
         text:'小工具',
         children:[

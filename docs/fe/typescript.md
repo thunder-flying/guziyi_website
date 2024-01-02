@@ -43,7 +43,7 @@ let courseName:string = '玩转Vue3全家桶'
 let price:number = 129
 let isOnline:boolean = true
 let courseSales:undefined
-let me:[string,number] = ["大圣",18]
+let me:[string,number] = ["thunder",18]
 // 2. 对象类型
 interface course {
     name:string,
@@ -139,6 +139,3 @@ B站录制
 * [TypeScript 入门教程](https://ts.xcatliu.com/)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/#why)
 
-## 付费课程
-
-* [极客时间| 大圣带你玩转Vue3全家桶](https://time.geekbang.org/column/intro/100094401?code=r78oEOqzZRyXf4pq6sDsv55Txm-8xGuB94dQMOW19Q8%3D&page=A)

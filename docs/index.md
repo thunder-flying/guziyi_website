@@ -3,11 +3,11 @@
 # sidebar: false
 # footer: 
 ---
-# 大圣前端学习路线
+# 前端学习路线
 <!-- ['❌','✅','🔥','⭐'] -->
 
 <roadmap  :data="[
-  { title:'大圣前端路线图',x:400,y:20 ,download:true},
+  { title:'前端路线图',x:400,y:20 ,download:true},
   { title:'✅HTML+CSS', y:130,link:'/fe/css.html',
     left:[
       ['HTML基础'],

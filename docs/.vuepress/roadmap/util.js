@@ -13,7 +13,6 @@ export const RECT = {
 }
 function drawInfo() {
   const title = `✅ 前端必须要学的知识 需要练习
-🔥 大圣推荐的技术，进阶必备，需要深入研究
 ⭐ 可以先收藏起来，用到的时候再学的技术
 ❌ 个人不推荐或者过时的技术`
   const x = 35
@@ -50,9 +49,9 @@ function drawInfo() {
 function drawQrcode(canvas) {
 
 
-  const title = `关注公众号，学习不迷路
-来源:https://shengxinjing.cn
-好好学习，天天向上`
+//   const title = `关注公众号，学习不迷路
+// 来源:https://shengxinjing.cn
+// 好好学习，天天向上`
   const x = 0
   const y = 20
   const width = 300

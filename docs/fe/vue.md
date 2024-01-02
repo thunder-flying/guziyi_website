@@ -104,6 +104,3 @@
 * [Vue.js设计与实现](https://book.douban.com/subject/35768338/)
 * [Testing Vue.js Applications](https://book.douban.com/subject/33338290/)
 
-## 付费课程
-
-* [极客时间| 大圣带你玩转Vue3全家桶](http://gk.link/a/10BM3)
