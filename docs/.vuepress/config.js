@@ -93,27 +93,13 @@ module.exports = {
           {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
         ]
       },
-      // '/support.md',
-      {
-        text:'聊天室',
-        link:'https://discord.gg/V3ZHdnZErY'
-      },
-      // {
-      //   text:'提问',
-      //   link:"https://github.com/thunder-gzy/guziyi.git/discussions"
-      // },
       {
         text:'Github',
         link:"https://github.com/thunder-gzy/guziyi.git"
       },
-      {
-        text:'Twitter',
-        link:"https://twitter.com/shengxj1"
-      }
     ],
     sidebar:[
       '/fe/README.md',
-
       {
         text:'入门实战',
         children:[
