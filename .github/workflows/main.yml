@@ -36,4 +36,5 @@ jobs:
           password: ${{ secrets.REMOTE_PASS }}
           port: 22
           source: "docs/.vuepress/dist/*"
-          target: ${{ secrets.REMOTE_TARGET }}
+          # target: ${{ secrets.REMOTE_TARGET }}
+          target: "/www/wwwroot/guziyi/*"
