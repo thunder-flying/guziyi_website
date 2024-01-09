@@ -2,7 +2,8 @@
   <Layout>
     <template #page-bottom>
       <p class="copyright">
-        <img v-if="badge" :src="badge" alt /> | Copyright © 京ICP备18000331号-1
+        <!-- <img v-if="badge" :src="badge" alt />  -->
+        | Copyright © 京ICP备18000331号-1
       </p> 
     </template>
   </Layout>
