@@ -8,10 +8,7 @@
 1. 首页绿色方块可点击二级页面
 2. 路线图导出图片
 3. 二级页面会有更详细的路线图和推荐资料
-4. 所有人都可以参与共建
-5. 可以在[讨论区](https://github.com/thunder-gzy/guziyi.git/discussions)分享学习心得，提需求，找到一起学习的小伙伴
-6. 每个页面下面的 编辑页面功能，可以直接线上提PR，merge之后会自动部署
-7. 使用Vuepress和Fabricjs构建
+4. 使用Vuepress和Fabricjs构建
 
 
 ## 标签

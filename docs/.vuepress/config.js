@@ -3,7 +3,7 @@ const { path } = require('@vuepress/utils')
 module.exports = {
   title: '前端编程自学网',
   description: '学前端的最佳实践.',
-  bundler:'@vuepress/bundler-vite',
+  bundler: '@vuepress/bundler-vite',
   // base: '',
   // bundlerConfig:{
   //   vuePluginOptions:{
@@ -33,11 +33,11 @@ module.exports = {
     ],
     // ['style', {},``]
   ],
-  markdown:{
-    linkify:true
+  markdown: {
+    linkify: true
   },
-  plugins:[
-    '@vuepress/search','@vuepress/debug',
+  plugins: [
+    '@vuepress/search', '@vuepress/debug',
     // [
     //   '@vuepress/plugin-docsearch',
     //   {
@@ -52,67 +52,67 @@ module.exports = {
     //   },
     // ],
   ],
-  themeConfig:{
-    logo:"/logo.jpeg",
-    contributors:false,
+  themeConfig: {
+    logo: "/logo.jpeg",
+    contributors: false,
     contributorsText: '贡献者',
-    lastUpdatedText:'上次更新',
-    notFound:['这就戳碰到我知识的盲点了'],
-    editLinkText:"编辑页面",
-    docsRepo:"https://github.com/thunder-gzy/guziyi.git",
-    docsBranch:"main",
-    docsDir:"docs",
-    navbar:[
+    lastUpdatedText: '上次更新',
+    notFound: ['这就戳碰到我知识的盲点了'],
+    editLinkText: "编辑页面",
+    docsRepo: "https://github.com/thunder-gzy/guziyi.git",
+    docsBranch: "main",
+    docsDir: "docs",
+    navbar: [
       '/fe/',
       {
-        text:'常用工具',
-        children:[
+        text: '常用工具',
+        children: [
           '/tools/weibo.md',
-          {text:'时钟',link:"https://pandafe.gitee.io/clock/"},
-          {text:'正则可视化',link:"https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24"},
-          {text:"mdnice",link:"https://mdnice.com/"},
-          {text:'时间轴工具',link:"https://time.graphics/editor"},
-          {text:'扁平配图unDraw',link:"https://undraw.co/illustrations"},
-          {text:'创客贴做海报',link:"https://www.chuangkit.com/"},
-          {text:"正则表达式",link:"https://any86.github.io/any-rule/"},
-          {text:'图片清除背景',link:"https://remove.bg/"},
-          {text:'小徽章',link:"https://shields.io/"},
-          {text:'数据结构/算法动态可视化',link:"https://visualgo.net/zh"},
-          {text:'AST Explorer',link:"https://astexplorer.net/"},
-          {text:'Apifox',link:"https://www.apifox.cn/"}
+          { text: '时钟', link: "https://pandafe.gitee.io/clock/" },
+          { text: '正则可视化', link: "https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24" },
+          { text: "mdnice", link: "https://mdnice.com/" },
+          { text: '时间轴工具', link: "https://time.graphics/editor" },
+          { text: '扁平配图unDraw', link: "https://undraw.co/illustrations" },
+          { text: '创客贴做海报', link: "https://www.chuangkit.com/" },
+          { text: "正则表达式", link: "https://any86.github.io/any-rule/" },
+          { text: '图片清除背景', link: "https://remove.bg/" },
+          { text: '小徽章', link: "https://shields.io/" },
+          { text: '数据结构/算法动态可视化', link: "https://visualgo.net/zh" },
+          { text: 'AST Explorer', link: "https://astexplorer.net/" },
+          { text: 'Apifox', link: "https://www.apifox.cn/" }
         ]
       },
       {
-        text:'摸鱼必备',
-        children:[
-          {text:"在线街机",link:"https://www.yikm.net/"},
-          {text:"假装更新系统",link:"https://fakeupdate.net/"},
-          {text:"在线看大熊猫",link:"http://live.ipanda.com/xmcd/"},
-          {text:"知乎",link:"https://www.zhihu.com/people/woniuppp"},
-          {text:"B站",link:"https://space.bilibili.com/26995758"},
-          {text:"云旅游",link:"https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4"},
-          {text:'云游故宫',link:"https://www.dpm.org.cn/yygg.html"},
+        text: '摸鱼必备',
+        children: [
+          { text: "在线街机", link: "https://www.yikm.net/" },
+          { text: "假装更新系统", link: "https://fakeupdate.net/" },
+          { text: "在线看大熊猫", link: "http://live.ipanda.com/xmcd/" },
+          { text: "知乎", link: "https://www.zhihu.com/people/woniuppp" },
+          { text: "B站", link: "https://space.bilibili.com/26995758" },
+          { text: "云旅游", link: "https://livechina.cctv.com/mlzg/index.shtml?spm=0.PiHRJ12Bw7m4.EVbEpxjQVGbO.4" },
+          { text: '云游故宫', link: "https://www.dpm.org.cn/yygg.html" },
         ]
       },
-      {
-        text:'Github',
-        link:"https://github.com/thunder-gzy/guziyi.git"
-      },
+      // {
+      //   text:'Github',
+      //   link:"https://github.com/thunder-gzy/guziyi.git"
+      // },
     ],
-    sidebar:[
+    sidebar: [
       '/fe/README.md',
       {
-        text:'入门实战',
-        children:[
-            '/fe/css.md',
-            '/fe/Javascript.md',
-            '/fe/project.md',
-            '/fe/interview.md',
-            '/fe/server.md',
+        text: '入门实战',
+        children: [
+          '/fe/css.md',
+          '/fe/Javascript.md',
+          '/fe/project.md',
+          '/fe/interview.md',
+          '/fe/server.md',
         ]
-      },{
-        text:'实战进阶',
-        children:[
+      }, {
+        text: '实战进阶',
+        children: [
           '/fe/vue.md',
           '/fe/react.md',
           // '/fe/framework.md',
@@ -123,16 +123,16 @@ module.exports = {
           '/fe/perf.md',
           '/fe/browser.md',
         ]
-      },{
-        text:'通用技能',
-        children:[
+      }, {
+        text: '通用技能',
+        children: [
           '/it/soft.md',
           '/it/internet.md',
           '/it/algorithm.md',
         ]
-      },{
-        text:'用到再学',
-        children:[
+      }, {
+        text: '用到再学',
+        children: [
           '/fe/miniapp.md',
           '/fe/app.md',
           '/fe/hot.md'
@@ -140,8 +140,8 @@ module.exports = {
       },
       // '/support.md',
       {
-        text:'小工具',
-        children:[
+        text: '小工具',
+        children: [
           '/tools/weibo.md'
         ]
       }
