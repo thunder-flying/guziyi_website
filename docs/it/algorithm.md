@@ -55,8 +55,8 @@
 * [前端肯算法](https://github.com/course-dasheng/fe-algorithm)
   
   
-## 付费教程
+<!-- ## 付费教程
 
 ::: warning @todo
 考虑做个前端算法课，leetcode带着刷200题，一题一块钱那种
-:::
+::: -->

@@ -50,6 +50,6 @@
 ## 免费视频
 * [B站| uniCloud开发实战：拍照识别垃圾分类应用 跨端云开发 uniapp ](https://www.bilibili.com/video/BV1y3411i7VK)
 
-::: warning @todo
+<!-- ::: warning @todo
 准备录制
-:::
+::: -->

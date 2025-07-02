@@ -82,10 +82,10 @@
 * [B站| 9分钟掌握React Hooks正确认知](https://www.bilibili.com/video/BV1JU4y1E73v?from=search&seid=1480540993076541477)
 * [B站| 你必须要掌握的React知识点](https://www.bilibili.com/video/BV1rK411F7x3)
 * [B站| 从0到1开发可视化拖拽H5编辑器(React)](https://www.bilibili.com/video/BV14b4y1R7hk)
-::: warning @todo
+<!-- ::: warning @todo
 B站录制
-:::
+::: -->
 ## 书籍推荐
 看文档
-## 付费课程
-制作中
+<!-- ## 付费课程
+制作中 -->
