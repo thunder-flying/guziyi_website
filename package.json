@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs && node moveDirectory",
-    "commit": "sh commit.sh",
-    "vercel-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
+    "commit": "sh commit.sh"
   },
   "devDependencies": {
     "vite": "2.8.6",
